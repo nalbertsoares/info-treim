@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+*{margin: 0; padding: 0;}
+
+@font-face{
+    font-family: "Up";
+    src: url(1up/1up.ttf);
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    font-size: 1.6em;
+    background-color: rgb(105, 32, 173);
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: yellow;
+    text-align: right;
+}
+
+#logo{
+    margin-right: 22%;
+    margin-top: 1%;
+}
+
+#pesquisa{
+    margin-top: 4%;
+    padding: 5px;
+}
+
+main{
+    grid-column-start: 3;
+    grid-column-end: 8;
+    background-color:rgb(105, 32, 173);
+    margin-top: 10%;
+}
+
+h1{
+    text-align: justify;
+    margin-top: 2%;
+    font-size: 1.3em;
+    font-family: "Up";
+    background-color: white;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.texto{
+    text-align: justify;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.texto p{
+    font-size: 1em;
+    color: white;
+}
+
+#texto2{
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#image1{
+    align-items: center;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#image2{
+    align-items: center;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 15%;
+}
+
+footer{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 80%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    font-weight: bold;
+}
+
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav{
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.4s ease;
+    display: none;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.menu-bg, #menu-bar{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.menu-bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0px 20px 20px;
+    background: radial-gradient(circle, rgb(255, 255, 95), yellow);
+    border-radius: 5%;
+    transition: 0.4s ease;
+}
+
+#menu-bar{
+    z-index: 2;
+}
+
+.change-bg{
+    width: 550px;
+    height: 1700px;
+    transform: translate(-60%,-30% );
+}
+
+.change.bar{
+    background-color: white;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotatez(-45deg);
+}
+
+.change #bar3{
+    transform: translateY(-6px)rotate(45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+.change{
+    display: block;
+}
+.test{
+    overflow: scroll;
+    height: 150px;
+}

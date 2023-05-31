@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>GEEKS - Info Treim</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="../Logo-transparente.png" width="280px" id="logo"></a>
+        <img src="../lupa.png" width="25px" id="lupa">
+        <input type="search" placeholder="Pesquisar" id="pesquisa">
+    </header>
+
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul id="nav" class="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../CAUSOS/images/index.html">Causos</a></li>
+            <li><a href="../ESPORTES/index.html">Esportes</a></li>
+            <li><a href="../CULTURA/index.html">Cultura</a></li>
+            <li><a href="../ROTEIROS/index.html">Roteiros</a></li>
+            <li><a href="../eSPORTS/index.html">eSports</a></li>
+            <li><a href="../MUSICA/index.html">Musica</a></li>
+            <li><a href="../PERSONALIDADES/index.html">Personalidades</a></li>
+        </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+
+    <main>
+        <div class="texto">
+            <h1>Evento de Animes chegara em BH em Junho</h1><br><br>
+            <p>O Anime Festival BH, um dos eventos de animes mais conhecidos de BH e regiao metropolitana, chega para mais uma ediçao em junho agora.</p>
+            <p>Aguardado por muitos, o evento, tem 19 anos de produções e mais de 50 edições, e oferece diversas atrações para seu publico, que varia de Concurso de Cosplay ate Concurso de Dança K-pop alem de gincanas e muito entreterimento.</p>
+                        
+            <div id="image1">
+                <img id="img">
+            </div>
+            
+            <p>O evento atrai todo tipo de publico fã da cultura geek e oriental, tem publico de todas as idades. Mas é importante a concientização das regras e normas para evitar possiveis dores de cabeça. Para que possam conferir os regulamentos, diponizaremos o link da rede social do evento, la inclusive vocês poderão fazer a compra do ingresso para a diversão no mundo geek.</p><br>
+        </div>
+
+        <div class="texto" id="texto2">
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Redes Sociais:</mark></b></p>
+            <p>https://instagram.com/afestivalbh?igshid=MzRIODBiNWFIZA==</p><br>
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Serviços: </mark></b></p>
+            <p>Anime Festival BH - Party Edition</p><br>
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Local: </mark></b></p>
+            <p>Rua Lavras, 225 (Colégio Marista Dom Silvério)- BH/MG </p><br>
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Data: </mark></b></p>
+            <p>10 e 11 de Junho de 2023</p><br>
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Te aguardamos lá! </mark></b></p>
+        </div>
+
+        <div id="image2">
+            <img class="imgn" src="animesfestival.jpeg" alt="Banner Animes Festival" width="900px">
+        </div>
+    </main>
+    <footer>
+        <a class="linksfooter" href="">Quem somos</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="linksfooter" href="">Politicas de Privacidade</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="linksfooter" href="">Anuncie conosco</a>
+        <br><br><br><br>
+        <h3>&copy; Copyright Info Treim Comunicações S.A</h3>
+    </footer>
+
+    <script>
+        function onClickMenu() {
+            document.getElementById("menu").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

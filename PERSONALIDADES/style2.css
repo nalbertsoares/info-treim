@@ -1,0 +1,33 @@
+*   header{
+        background-image:linear-gradient(to right, rgb(10, 87, 10) rgb(38, 93, 8));
+        color:rgb(15, 67, 4);
+        height:150px;
+        text-align:start;
+    }
+    nav{
+        display:inline;
+        background-image:linear-gradient(to right,rgb(138,134,134), rgb(27, 82, 10));
+        padding: 15px 0px 15px 0px;
+        border-bottom:10px;
+        
+    }
+
+    h1{
+        text-align: center;
+    }
+    a{
+        margin:5vw;
+        color:aquamarine;
+    }
+
+    p {
+        font-size: 30px;
+     }
+
+   
+    
+    
+    
+    
+    
+    

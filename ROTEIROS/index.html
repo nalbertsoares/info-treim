@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>ROTEIROS - Info Treim</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../Logo-transparente.png" id="logo" width="280px"></a>
+        <img src="../lupa.png" width="25px" id="lupa">
+        <input type="search" placeholder="Pesquisar">
+
+    </header>
+
+        <div id="menu-bar">
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+
+            <ul id="nav" class="nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../CAUSOS/images/index.html">Causos</a></li>
+                <li><a href="../ESPORTES/index.html">Esportes</a></li>
+                <li><a href="../CULTURA/index.html">Cultura</a></li>
+                <li><a href="../GEEK/index.html">Geek</a></li>
+                <li><a href="../eSPORTS/index.html">eSports</a></li>
+                <li><a href="../MUSICA/index.html">Musica</a></li>
+                <li><a href="../PERSONALIDADES/index.html">Personalidades</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
+
+        <main>
+            <div id="titulo">
+                <h1>Pra viajar o mundo sem sair do estado de Minas Gerais, aqui estão alguns lugares mágicos no quintal de casa.</h1>
+            </div>
+            <div class="caixa">
+                <div id="image1">Passe o mouse</div>
+                <div class="texto">
+                    <h4>OURO PRETO</h4>
+                    <p>Ouro Preto, em Minas Gerais, está entre os mais incríveis destinos turísticos do Brasil. Primeira cidade do país a receber o título de Patrimônio Mundial da Humanidade pela Unesco, Ouro Preto preserva parte importante da história, cultura e arte brasileira, tudo regado ao apaixonante tempero e jeitinho mineiro. </p>
+                    <p>Fundada em 1711, sob nome de Vila Rica, a cidade foi palco da incessante corrida em busca de ouro. Hoje, o turismo em Ouro Preto respira o período colonial e andar por suas ruas de pedra é uma deliciosa viagem no tempo. Aproveite os dias em Ouro Preto (MG) para visitar diversas igrejas, museus, construções coloniais e cenários incríveis em meio à Serra do Espinhaço.
+                    </p>
+                    <p>Conhecer Ouro Preto é abrir os olhos para o Brasil. Calce um tênis confortável, tome fôlego e prepare-se para um intenso sobe e desce de ladeiras. Acredite, não faltará o que fazer em Ouro Preto durante a sua viagem.
+                    </p>
+                </div>
+            </div>
+            <div class="caixa">
+                <div id="texto2">
+                    <h4>CAPITÓLIO</h4>
+                    <p>Capitólio é um município brasileiro no estado de Minas Gerais, Região Sudeste do país. Localiza-se no sudoeste do estado e ocupa uma área de 521,802 km², sendo que 7,5 km² estão em perímetro urbano. Sua população foi estimada em 8 693 habitantes em 2021. Capitólio se tornou um importante destino turístico de Minas Gerais, muito procurado nos últimos anos por conta de suas belas cachoeiras e rios de águas transparentes. O Cânion de Furnas é a principal atração, com suas paredes de pedra invadidas pelas águas esverdeadas do Lago de Furnas, formado pela represa da Usina Hidrelétrica de Furnas.
+                    </p>
+                </div>
+                <div id="image2">Passe o mouse</div>
+            </div>
+            <div class="caixa">
+                <div id="image3">Passe o mouse</div>
+                <div class="texto">
+                    <h4>SÃO TOMÉ DAS LETRAS</h4>
+                    <p>São Tomé das Letras Localizada a 304 km de Belo Horizonte, a cidade recebe turistas durante o ano todo. Ao chegar em São Tomé o visitante é rapidamente envolvido por um clima místico e um estilo alternativo. Na cidade é possível encontrar pessoas vestidas com a moda hippie e moradores com muitas histórias que despertam a curiosidade dos turistas. A arquitetura rústica e as construções de pedras sobrepostas também fazem a fama do local. Passeando pela cidade é possível encontrar velas, incensos, apanhadores de sonhos e casinhas de pedra, souvenires muito procurados pelos turistas. As grutas e cachoeiras também atraem a atenção dos visitantes, com destaque para o Vale das Borboletas destino favorito para quem busca misticismo.</p>
+                </div>
+            </div>
+            <div id="frase-final">
+                <h1>Eaí, você já visitou alguns desses lugares?</h1>
+            </div>
+        </main>
+        <footer>
+            <a class="linksfooter" href="">Quem somos</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a class="linksfooter" href="">Politicas de Privacidade</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a class="linksfooter" href="">Anuncie conosco</a>
+            <br><br><br><br>
+            <h3>&copy; Copyright Info Treim Comunicações S.A</h3>
+        </footer>
+
+    <script>
+        function onClickMenu(){
+        document.getElementById("menu").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+    </script>
+</body>
+</html>

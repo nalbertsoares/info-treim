@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>eSPORTS - Info Treim</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="../Logo-transparente.png" width="280px" id="logo"></a>
+        <img src="../lupa.png" width="25px" id="lupa">
+        <input type="search" placeholder="Pesquisar" id="pesquisa">
+    </header>
+
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul id="nav" class="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../CAUSOS/images/index.html">Causos</a></li>
+            <li><a href="../ESPORTES/index.html">Esportes</a></li>
+            <li><a href="../CULTURA/index.html">Cultura</a></li>
+            <li><a href="../ROTEIROS/index.html">Roteiros</a></li>
+            <li><a href="../GEEK/index.html">Geek</a></li>
+            <li><a href="../MUSICA/index.html">Musica</a></li>
+            <li><a href="../PERSONALIDADES/index.html">Personalidades</a></li>
+        </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+
+    <main>
+        <div class="texto">
+            <h1>primeira arena de e-sports de bh e regiao chega no shopping contagem</h1><br><br>
+            <p>Aos gamers de Contagem e regiao, chega a novidade: Uma arena de eSports no shopping de contagem.
+                O local é exclusivo focado em inovações, criatividade e crescimento digital para você jogar seus jogos preferidos com os amigos, acompanhado de uma boa live competitiva.</p>
+            
+            <div id="image1">
+                <img class="imgn" src="TG-ARENA2-728x546.jpeg" alt="Imagem TG Arena" width="600px">
+            </div>
+            
+            <p>As atrações principais são locação e campeonatos, Cursos de design e informática, streamings, desafios e uma loja de produtos personalizados (camisetas, garrafinhas e bonés).O horario de funcionamento do espaço é durante o horario de funcionamento comercial do shopping e inicialmente tera o valor de R$12 por hora. O espaço localiza-se no piso L2 ao lado da C&A.</p><br>
+        </div>
+        
+        <div class="texto" id="texto2">
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Serviços: </mark></b></p>
+            <p>TG Arena</p><br>
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Local: </mark></b></p>
+            <p>Piso L2, ao lado da C&A - Shopping Contagem</p><br>
+            <p><b><mark style="background-color: rgb(255, 255, 255) ;"> Te aguardamos lá! </mark></b></p>
+        </div>
+
+        <div id="image2">
+            <img class="imgn" src="TG Arena2.jpeg" alt="Imagem TG Arena" width="600px">
+        </div>
+    </main>
+    <footer>
+        <a class="linksfooter" href="#">Quem somos</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="linksfooter" href="#">Politicas de Privacidade</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="linksfooter" href="#">Anuncie conosco</a>
+        <br><br><br><br>
+        <h3>&copy; Copyright Info Treim Comunicações S.A</h3>
+    </footer>
+
+    <script>
+        function onClickMenu() {
+            document.getElementById("menu").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+    </script>
+</body>
+
+</html>

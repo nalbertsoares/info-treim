@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>ESPORTES - Info Treim</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../Logo-transparente.png" id="logo" width="280px"></a>
+        <img src="../lupa.png" width="25px" id="lupa">
+        <input type="search" placeholder="Pesquisar">
+
+    </header>
+
+        <div id="menu-bar">
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+
+            <ul id="nav" class="nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../CAUSOS/images/index.html">Causos</a></li>
+                <li><a href="../CULTURA/index.html">Cultura</a></li>
+                <li><a href="../GEEK/index.html">Geek</a></li>
+                <li><a href="../eSPORTS/index.html">eSports</a></li>
+                <li><a href="../MUSICA/index.html">Musica</a></li>
+                <li><a href="../PERSONALIDADES/index.html">Personalidades</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
+
+        <main>
+            <div id="imagem-central">
+                <img src="../raulzinho.jpeg" width="845px">
+            </div>
+            <div id="texto-foto">Aos 30 anos, o jogador brasileiro Raul Neto já acumula a experiência de sete anos atuando na maior competição de basquete do mundo, o torneio da NBA – que está em plena temporada 2022/2023.</div>
+            <div class="texto">
+                <p>Raulzinho é filho do ex-jogador de basquete Raul Togni Neto. É mineiro de Belo Horizonte e nasceu dia 19 de maio de 1992. Foi em Poços de Caldas que ele começou a jogar basquete, por influência de seu pai, que era jogador profissional.</p>
+                <p>Quando o pai de Raulzinho foi transferido para o time do Bauru (interior de São Paulo), toda a família se mudou para a cidade e o então adolescente Raul conseguiu uma vaga em um time amador. O pai de Raulzinho encerrou sua carreira de jogador e se tornou técnico. Por conta disso, a família retornou a Belo Horizonte, e Raulzinho fez sua estreia profissional ao ser contratado pelo time Minas Tênis Clube, em 2008, para jogar a Liga das Américas.</p>
+                <p>Raulzinho estreou na NBA em 2015 depois de ser contratado pela equipe espanhola Gipuzkoa Basket, jogando de 2011 a 2014, e por alguns meses de 2015 no time do Murcia, também na Espanha, Raulzinho chamou a atenção de equipes norte-americanos de basquete. Em 9 de julho de 2015, o atleta assinou contrato de três anos com o Utah Jazz, fazendo sua estreia no famoso torneio da NBA. Em 2019, Raulzinho foi para o time Philadelphia 76ers.</p>
+                <p>Em novembro de 2020, o jogador foi contratado pelo Washington Wizards, time que jogou até ser convidado a atuar no badalado Cleveland Cavaliers, com quem Raulzinho assinou em 2 de julho de 2022 e defende desde então. Raulzinho já jogou na Seleção Brasileira de Basquete.</p>
+                <p>Na equipe principal, Raulzinho participou do Campeonato Mundial de Basquete Masculino de 2010, dos Jogos Olímpicos de 2012 e de 2016, e ainda do Campeonato Sul-Americano de 2013 e Campeonato Mundial de 2014.</p>
+            </div>
+            <div id="frase-final">
+                <p>Você acompanha NBA? Já tinha ouvido falar sobre ele?</p>
+            </div>
+        </main>
+
+        <footer>
+            <a class="linksfooter" href="#">Quem somos</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a class="linksfooter" href="#">Politicas de Privacidade</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a class="linksfooter" href="#">Anuncie conosco</a>
+            <br><br><br><br>
+            <h3>&copy; Copyright Info Treim Comunicações S.A</h3>
+        </footer>
+    
+        <script>
+            function onClickMenu(){
+            document.getElementById("menu").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+            }
+        </script>
+</body>
+</html>

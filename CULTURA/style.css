@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{margin: 0; padding: 0;}
+
+body{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 12vh;
+    font-size: 1.5em;
+}
+
+header{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    text-align: right;
+}
+
+#logo{
+    margin-right: 22%;
+    margin-top: 1%;
+}
+
+#lupa{
+    margin-top: 5%;
+}
+
+input{
+    padding: 5px;
+}
+
+main{
+    margin-top: 10%;
+    font-family: 'Sarabun', sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    height: 400vh;
+}
+
+#texto-foto{
+    font-size: 90%;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.texto{
+    margin-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.texto p{
+    margin-top: 15px;
+    text-align: justify;
+}
+.texto2 h1{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.texto2 p{
+    text-align: justify;
+    margin-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.caixa{
+    display: inline-block;
+    border-radius: 5%;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 11px 4px 1px rgb(207, 207, 207);
+    padding: 1%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#caixa1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 7%;
+    margin-right: 1%;
+}
+
+#caixa2{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    margin-left: 1%;
+}
+
+#caixa3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 7%;
+    margin-right: 1%;
+}
+
+#caixa4{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    margin-left: 1%;
+}
+
+#caixa5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-left: 7%;
+}
+
+#caixa6{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    margin-left: 1%;
+}
+
+#frase-final{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 1.2em;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    grid-column-start: 1;
+    grid-column-end: 10;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 90%;
+}
+
+#menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+    transform: translateY(4px);
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    font-weight: bold;
+}
+
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav{
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.4s ease;
+    display: none;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.menu-bg, #menu-bar{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.menu-bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0px 20px 20px;
+    background: radial-gradient(circle, rgb(255, 74, 74), red);
+    border-radius: 5%;
+    transition: 0.4s ease;
+}
+
+#menu-bar{
+    z-index: 2;
+}
+
+.change-bg{
+    width: 550px;
+    height: 1700px;
+    transform: translate(-60%,-30% );
+}
+
+.change.bar{
+    background-color: white;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotatez(-45deg);
+}
+
+.change #bar3{
+    transform: translateY(-6px)rotate(45deg);
+}
+
+.change #bar2{
+    opacity: 0;
+}
+
+.change{
+    display: block;
+}
+.test{
+    overflow: scroll;
+    height: 150px;
+}
